@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #f4f4f4;
+      }
+
+      header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1em;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+      }
+
+      .login-form {
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 2em;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+      }
+
+      .login-form input {
+        width: 100%;
+        padding: 0.5em;
+        margin: 0.5em 0;
+      }
+
+      .login-form button.homeBtn {
+        background-color: #7a80ee;
+        color: white;
+      }
+
+      .login-form button {
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        padding: 0.5em 1em;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 1em;
+      }
+
+      .login-form button.reset {
+        background-color: #bbb;
+      }
+
+      .logo {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        column-gap: 2rem;
+      }
+
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1em;
+        /* position: fixed; */
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Login Page</h1>
+    </header>
+
+    <div class="container">
+      <div class="login-form">
+        <h2>Welcome</h2>
+        <form action="new-page.html" method="post">
+          <input type="text" name="username" placeholder="Username" required />
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+          <button type="submit">Submit</button>
+          <button type="reset" class="reset">Reset</button>
+          <button class="homeBtn" onclick="location.href = 'index.html';">
+            Home
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div class="logo">
+      <a href="https://www.instagram.com/karthikchockalingam/" class="icon">
+        <img
+          src="https://static-00.iconduck.com/assets.00/instagram-icon-512x512-ggh8x3cn.png"
+          alt="Instagram"
+          width="50"
+          height="50"
+        />
+      </a>
+
+      <a href="https://www.linkedin.com/in/karthik-chockalingam6/" class="icon">
+        <img
+          src="https://static-00.iconduck.com/assets.00/linkedin-icon-512x512-vkm0drb1.png"
+          alt="LinkedIn"
+          width="50"
+          height="50"
+        />
+      </a>
+
+      <a href="https://twitter.com/" class="icon">
+        <img
+          src="https://freelogopng.com/images/all_img/1690643640twitter-x-icon-png.png"
+          alt="Twitter"
+          width="50"
+          height="50"
+        />
+      </a>
+    </div>
+    <footer>
+      <p>All RIGHTS RESERVED &copy COPYRIGHT 2024</p>
+    </footer>
+  </body>
+</html>

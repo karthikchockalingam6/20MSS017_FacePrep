@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XYZ Home.</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1em;
+        width: 100%;
+      }
+
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1em;
+        /* position: fixed; */
+        bottom: 0;
+        width: 100%;
+      }
+
+      .container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 2em;
+      }
+
+      .card {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        margin: 1em;
+        padding: 1em;
+        width: 300px;
+        text-align: center;
+      }
+
+      .logo {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        column-gap: 2rem;
+      }
+      .container2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>XYZ Private Limited.</h1>
+    </header>
+    <div class="container2">
+      <div class="container">
+        <div class="card">
+          <h2>About us</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+        </div>
+        <div class="card">
+          <h2>Existing User</h2>
+          <p>Click below</p>
+          <button onclick="location.href = 'login.html';">Login</button>
+        </div>
+        <div class="card">
+          <h2>New User ?</h2>
+          <p>Click below</p>
+          <button onclick="location.href = 'signup.html';">Sign Up</button>
+        </div>
+      </div>
+    </div>
+    <div class="logo">
+      <a href="https://www.instagram.com/karthikchockalingam/" class="icon">
+        <img
+          src="https://static-00.iconduck.com/assets.00/instagram-icon-512x512-ggh8x3cn.png"
+          alt="Instagram"
+          width="50"
+          height="50"
+        />
+      </a>
+
+      <a href="https://www.linkedin.com/in/karthik-chockalingam6/" class="icon">
+        <img
+          src="https://static-00.iconduck.com/assets.00/linkedin-icon-512x512-vkm0drb1.png"
+          alt="LinkedIn"
+          width="50"
+          height="50"
+        />
+      </a>
+
+      <a href="https://twitter.com/" class="icon">
+        <img
+          src="https://freelogopng.com/images/all_img/1690643640twitter-x-icon-png.png"
+          alt="Twitter"
+          width="50"
+          height="50"
+        />
+      </a>
+    </div>
+
+    <footer>
+      <p>All RIGHTS RESERVED &copy COPYRIGHT 2024</p>
+    </footer>
+  </body>
+</html>
